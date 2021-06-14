@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CRUD Operations</title>
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="index.js"></script>  
+    </head>
+    <body onload="onloadFn();">
+        <div>
+            <!-- header -->
+            <div id="indexHeader"><h3><u>CRUD Operations</u></h3></div>
+            <!-- end header -->
+            <!-- table -->
+            <div id="indexTable">
+                <table id="tbl">
+                    <thead>
+                        <tr>
+                            <th>S.No</th>
+                            <th>Id</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th>Mobile</th>
+                            <th>Action</th>
+                            <th>
+                                <span style="cursor: pointer;padding: 0px 5px;font-size: 25px;">+</span>
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody id="tblBody">
+                    </tbody>
+                </table>
+            </div>
+            <!-- end table -->
+            <!-- Input field -->
+            <div id="indexInput" style="padding: 0% 25%;">
+                <table>
+                    <tr>
+                        <th colspan="2" class="tableHeader">Enter your details</th>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td><input id="username" name="username" type="text" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input id="email" name="email" type="text"></td>
+                    </tr>
+                    <tr>
+                        <td>Mobile</td>
+                        <td><input id="mobile" name="mobile" type="number"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <div style="padding: 5px;" class="button_cont" align="center">
+                                <a id="addEdit" class="edit" target="_blank" rel="nofollow noopener" ></a>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <!-- End Input field -->
+        </div>
+    </body>
+</html>

@@ -1,0 +1,77 @@
+#indexHeader {
+    text-align: center;
+}
+#indexHeader h3{
+    font-family:cursive;
+    color: black;
+}
+#indexTable table {
+    text-align: center;
+    width:100%;
+    border-collapse: collapse;
+}
+#indexTable th {
+    color: Grey;
+    font-family:cursive;
+}
+#indexTable td {
+    color: rgb(138, 138, 138);
+    font-family:cursive;
+}
+#indexTable th,#indexTable td {
+    border: 1px solid;
+    border-color: grey;
+    font-family:cursive;
+}
+#indexInput td .edit,#indexTable td .edit {
+    border: none;
+    background: Blue;
+    color: #ffffff !important;
+    font-weight: 100;
+    padding: 6px;
+    border-radius: 6px;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+#indexInput td .edit:hover,#indexTable td .edit:hover {
+    cursor: pointer;
+    color: blue!important;
+    font-weight: 700 !important;
+    letter-spacing: 3px;
+    background: none;
+    -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+    transition: all 0.3s ease 0s;
+}
+#indexTable th span:hover {
+    cursor: pointer;
+    background: red;
+    color: #ffffff !important;
+    border-radius: 6px;
+}
+
+#indexInput {
+    margin-top: 15px;
+}
+#indexInput .tableHeader {
+    color: rgb(228, 158, 158);
+    font-family:cursive;
+}
+#indexInput table {
+    text-align: center;
+    width:100%;
+    border-collapse: collapse;
+}
+#indexInput td {
+    color: rgb(138, 138, 138);
+    font-family:cursive;
+    border: 1px solid;
+    border-color: rgb(180, 180, 180);
+}
+#indexInput input {
+    width: 99%;
+    border: none;
+}
+#indexInput input:focus{
+    outline: none;
+}
